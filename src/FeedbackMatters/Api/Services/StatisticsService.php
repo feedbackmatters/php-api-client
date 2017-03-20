@@ -49,7 +49,6 @@ class StatisticsService extends Service
   {
     return new Statistics(
       $data['opened'],
-      $data['filled'],
       $data['requests'],
       $data['promoters'],
       $data['passives'],

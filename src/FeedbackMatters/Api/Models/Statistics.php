@@ -14,11 +14,6 @@ class Statistics
   /**
    * @var int
    */
-  protected $filled;
-
-  /**
-   * @var int
-   */
   protected $request;
 
   /**
@@ -84,14 +79,6 @@ class Statistics
   public function getOpened()
   {
     return $this->opened;
-  }
-
-  /**
-   * @return int
-   */
-  public function getFilled()
-  {
-    return $this->filled;
   }
 
   /**
