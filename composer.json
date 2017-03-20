@@ -1,0 +1,22 @@
+{
+  "name": "feedbackmatters/feedbackmatters-api-php",
+  "description": "The Feedback Matters PHP API.",
+  "keywords": ["Feedback", "matters", "php", "api"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael van de Rijt",
+      "email": "info@feedbackmatters.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "tightenco/collect": "^5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "FeedbackMatters\\Api": "src/"
+    }
+  }
+}

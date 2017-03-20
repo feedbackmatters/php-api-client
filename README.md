@@ -1,2 +1,4 @@
-# api-php
-The Feedback Matters PHP API client
+Feedback Matters PHP API
+===========================
+
+Documentation wil be added soon!
